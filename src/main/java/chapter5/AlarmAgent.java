@@ -12,4 +12,8 @@ public class AlarmAgent {
     public void sendAlarm(AlarmInfo alarm) {
         System.out.println("Sended AlarmInfo: " + alarm.toString());
     }
+
+    public void disconnect() {
+        System.out.println("Disconnected...");
+    }
 }

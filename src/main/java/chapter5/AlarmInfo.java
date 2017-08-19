@@ -4,8 +4,8 @@ package chapter5;
  * Created by chaoqiang on 9/28/16.
  */
 public class AlarmInfo {
-    private String id;
-    private AlarmType type;
+    public String id;
+    public AlarmType type;
     private String extraInfo;
 
     public AlarmInfo(String id, AlarmType type) {
@@ -24,5 +24,9 @@ public class AlarmInfo {
                 ", type=" + type +
                 ", extraInfo='" + extraInfo + '\'' +
                 '}';
+    }
+
+    public String getExtraInfo() {
+        return extraInfo;
     }
 }

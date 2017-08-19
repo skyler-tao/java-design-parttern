@@ -6,5 +6,7 @@ package chapter5;
 public enum AlarmType {
     PAGE,
     CARD,
-    EVENT
+    EVENT,
+    RESUME,
+    FAULT
 }
