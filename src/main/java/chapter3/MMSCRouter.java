@@ -34,8 +34,9 @@ public class MMSCRouter {
 
     /**
      * 根据手机号码前缀获取对应的彩信中心信息
+     *
      * @param msisdnPrefix 手机号码前缀
-     * @return  彩信中心信息
+     * @return 彩信中心信息
      */
     public MMSCInfo getMMSC(String msisdnPrefix) {
         return routeMap.get(msisdnPrefix);
